@@ -1,7 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+/* font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 body{
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 nav ul li a{
-    font-weight: 700;
+    font-weight: 500;
+}
+.carousel-item{
+    height: 88.2vh;
+} 
+.carousel-item img{
+    height: 100%;
+    object-fit: cover;
+}
+.carousel-caption h1{
+    font-weight: 600;
+}
+.carousel-caption p{
+    font-weight: 300;
+    font-size: 16px;
+}
+.position{
+    margin-top: -2%;   
+}
+.hot{
+    border-radius: 35px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* media query  */
+@media screen and (max-width:688px) {
+    nav .navbar-brand{
+        min-width: 143px;
+        font-size: 14px;
+    }
+    nav ul li a {
+        font-size: 12px;
+    }
+    .carousel-caption h1{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    .carousel-caption p{
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 1.5;
+    }
+    .position{
+        margin-top: 24px;
+    }
+}
+@media screen and (min-width:689px) and (max-width:992px){
+    .position{
+        margin-top: 24px;
+    }
 }
