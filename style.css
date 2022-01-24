@@ -54,6 +54,7 @@ footer .store{
     body{
         overflow-x: hidden;
     }
+    /* menu styles  */
     nav .navbar-brand{
         min-width: 143px;
         font-size: 14px;
@@ -61,6 +62,7 @@ footer .store{
     nav ul li a {
         font-size: 12px;
     }
+    /* slider styles  */
     .carousel-caption h1{
         font-weight: 600;
         font-size: 18px;
@@ -73,14 +75,16 @@ footer .store{
         width: 200px;
         margin: 0 auto;
     }
+    /* package section styles  */
     .position{
         margin-top: 24px;
     }
-    .store{
-        width: 170px;
-    }
+    /* footer section styles  */
     footer p small.small{
         font-size: 10px;
+    }
+    .store{
+        width: 170px;
     }
 }
 @media screen and (min-width:689px) and (max-width:992px){
